@@ -2,7 +2,6 @@ package org.deaygo.util.string;
 
 public class Padding
 {
-	//Test Commit
 	public static String padString16(final String text)
 	{
 		final int mod = 16 - (text.length() % 16);
